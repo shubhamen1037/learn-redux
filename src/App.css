@@ -1,0 +1,47 @@
+
+.container{
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.quantity{
+  background-color: antiquewhite;
+}
+
+.quantity__plus{
+  height: 38px;
+  color: black;
+  width: 30px;
+  padding: 10px;
+}
+
+.quantity__minus{
+  height: 38px;
+  color: black;
+  width: 30px;
+  padding: 10px;
+
+}
+
+.quantity__minus:hover{
+  cursor: pointer;
+
+}
+
+.quantity__plus:hover{
+  cursor: pointer;
+ 
+}
+
+.quantity__input{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+
+}
